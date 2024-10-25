@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Commons Global Summit 2015</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <div id="main">
+
+        <div class="pg1">
+
+            <header class="header">
+                <img id="menuImage" src="menu.png" alt="Menu">
+            </header>
+
+
+            <div class="firstpage">
+                <h1>"Hello! Sharing world"</h1>
+                <h2>CREATIVE COMMONS GLOBAL SUMMIT 2015</h2>
+                <div class="box">
+                    <p>A joyful celebration believing in the value of openness and sharing, creating a positive change
+                        with
+                        people from over 80 countries is taking place in october,in korea</p>
+                </div>
+                <div class="ps">
+                    <p id="p1">2015.10.15 (Thu) ~ 16 (Fri)</p>
+                    <p id="p2">@ National Museum of Korea, Art Center Nabi and more</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <section class="main-program">
+            <h2>Main Program</h2>
+            <div class="line"></div>
+            <div class="program-item one">
+                <img src="speech.png" alt="">
+                <h3>Lecture</h3>
+                <p>Listen to speakers from various countries about the messages of sharing and opening.</p>
+            </div>
+            <div class="program-item two">
+                <img src="tv.png" alt="">
+                <h3>CC Exhibition</h3>
+                <p>Appreciate various creations applying CC licenses of artists, organized from Art Center Nabi.</p>
+            </div>
+            <div class="program-item three">
+                <img src="msgs.png" alt="">
+                <h3>Forum</h3>
+                <p>Share your thoughts and opinions with experts for each topic.</p>
+            </div>
+            <div class="program-item">
+                <img src="wb.png" alt="">
+                <h3>Workshop</h3>
+                <p>Try creating your own work using open source licenses rather than just watching.</p>
+            </div>
+
+            <div class="program-item five">
+                <img src="wb.png" alt="">
+                <h3>CCIgnite</h3>
+                <p>Try creating your own work using open source licenses rather than just watching.</p>
+            </div>
+            <button id="btn1">Join CC Global Submit 2015</button>
+        </section>
+
+
+        <section id="speakers">
+            <h2>Featured Speakers</h2>
+            <div class="line l2"></div>
+        
+
+        </section>
+
+
+        <div id="moresp">
+            <div class="speaker">
+                <img src="lila.jpeg" alt="SohYeong Noh">
+                <div class="items">
+                    <h3>Lila Tretikov</h3>
+                    <p class="red">Director of Art Center Nabi and a board member of CC Korea</p>
+                    <p>As the main venue for her media arts production in korea,Nabi promotes cross-displainary
+                        collaboration and understanding among science technology, humanities and the arts.</p>
+                </div>
+            </div>
+            <div class="speaker">
+                <img src="kil.jpeg" alt="SohYeong Noh">
+                <div class="items">
+                    <h3>Kilnam Chon</h3>
+                    <p class="red">Director of Art Center Nabi and a board member of CC Korea</p>
+                    <p>As the main venue for her media arts production in korea,Nabi promotes cross-displainary
+                        collaboration and understanding among science technology, humanities and the arts.</p>
+                </div>
+            </div>
+            <div class="speaker">
+                <img src="jul.jpeg" alt="SohYeong Noh">
+                <div class="items">
+                    <h3>julia leda</h3>
+                    <p class="red">Director of Art Center Nabi and a board member of CC Korea</p>
+                    <p>As the main venue for her media arts production in korea,Nabi promotes cross-displainary
+                        collaboration and understanding among science technology, humanities and the arts.</p>
+                </div>
+            </div>
+            <div class="speaker">
+                <img src="ryan.jpeg" alt="SohYeong Noh">
+                <div class="items">
+                    <h3>Ryan Merkely</h3>
+                    <p class="red">Director of Art Center Nabi and a board member of CC Korea</p>
+                    <p>As the main venue for her media arts production in korea,Nabi promotes cross-displainary
+                        collaboration and understanding among science technology, humanities and the arts.</p>
+                </div>
+            </div>
+        </div>
+
+        <button id="more">MORE ></button>
+
+
+
+
+
+
+    </div>
+    <div id="overlaymenu">
+        <button id="closeButton">&times;</button>
+        <h2>Dropdown Menu</h2>
+        <ul>
+            <li><a href="#link1" style="color: white;">Link 1</a></li>
+            <li><a href="#link2" style="color: white;">Link 2</a></li>
+            <li><a href="#link3" style="color: white;">Link 3</a></li>
+        </ul>
+    </div>
+
+
+    <script src="sc.js"></script>
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuImage = document.getElementById("menuImage");
+            const overlayMenu = document.getElementById("overlayMenu");
+            const closeButton = document.getElementById("closeButton");
+
+
+            menuImage.addEventListener("click", function () {
+                overlayMenu.style.display = "block";
+            });
+
+
+            closeButton.addEventListener("click", function () {
+                overlayMenu.style.display = "none";
+            });
+        });
+    </script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const speakers = [
+                {
+                    name: "Yochai Benkler",
+                    image: "yo.jpeg",
+                    title: "Berkman Professor of Entrepreneurial Legal Studies at Harvard Law School",
+                    description: "Benkler studies common-based peer production, and published his seminal book, *The Wealth of Networks*, in 2006."
+                },
+                {
+                    name: "SohYeong Noh",
+                    image: "so.jpeg",
+                    title: "Director of Art Center Nabi and a board member of CC Korea",
+                    description: "As the main venue for her media arts production in Korea, Nabi promotes cross-disciplinary collaboration and understanding among science, technology, humanities, and the arts."
+                }
+
+            ];
+
+
+            const container = document.getElementById("speakers");
+
+
+            function createSpeakers() {
+
+                
+                speakers.forEach((speaker, index) => {
+                    
+
+
+
+                    const speakerDiv = document.createElement("div");
+
+                    speakerDiv.className = "speaker";
+                    
+                    
+
+
+
+
+                    const img = document.createElement("img");
+                    img.src = speaker.image;
+                    img.alt = speaker.name;
+
+
+                    const itemsDiv = document.createElement("div");
+                    itemsDiv.className = "items";
+
+
+                    const nameHeading = document.createElement("h3");
+                    nameHeading.textContent = speaker.name;
+
+
+                    const titleParagraph = document.createElement("p");
+                    titleParagraph.className = "red";
+                    titleParagraph.textContent = speaker.title;
+
+
+                    const descriptionParagraph = document.createElement("p");
+                    descriptionParagraph.textContent = speaker.description;
+
+
+                    itemsDiv.appendChild(nameHeading);
+                    itemsDiv.appendChild(titleParagraph);
+                    itemsDiv.appendChild(descriptionParagraph);
+
+
+                    speakerDiv.appendChild(img);
+                    speakerDiv.appendChild(itemsDiv);
+
+
+                    container.appendChild(speakerDiv);
+
+
+
+
+
+                });
+
+
+
+
+
+
+            }
+
+            
+
+
+
+
+            window.onload = createSpeakers;
+
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const morebtn = document.getElementById("more");
+            const hs = document.getElementById("moresp");
+
+            morebtn.addEventListener("click", function () {
+                hs.style.display = "block";
+                morebtn.style.display = "none";
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

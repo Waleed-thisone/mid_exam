@@ -1,0 +1,332 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    
+
+h1, h2 {
+    color: #ff4500; 
+    margin-top: -20px;
+    background-image: url('font.jpg');
+         background-size: cover; 
+        background-position: center;
+        color: transparent; 
+        -webkit-background-clip: text; 
+         background-clip: text; 
+}
+
+h3{
+    color: #ff4500;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#main{
+    max-width: 650px;
+    margin: auto;
+}
+.header {
+    
+    
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+}
+
+
+.firstpage{
+    
+}
+
+.firstpage h1 {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.firstpage h2 {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+
+
+.firstpage p {
+    font-size: 18px;
+}
+
+
+.main-program {
+    
+    padding: 20px;
+    
+    margin: auto;
+    background-image: url('pg2\ \(1\).png');
+
+}
+
+.main-program h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-left: 5px solid #ff4500;
+}
+
+.program-item h3 {
+    margin-top: 0;
+}
+
+/* Speakers Section */
+.speakers {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.speakers h2 {
+    margin-bottom: 20px;
+}
+
+.speaker {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2.5%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.speaker img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.speaker h3 {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        width: 100%;
+    }
+}
+
+
+.header img{
+    height: 50px;
+    margin-right: 1000px;
+    cursor: pointer;
+    
+    
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    line-height: 2;
+    letter-spacing: 1px;
+    width: 550px;
+}
+
+
+.pg1{
+    background-image: url('pg2\ \(2\).png');
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+
+
+.ps{
+    margin-left: 30px;
+    
+}
+
+#p1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+#p2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+.program-item{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-bottom: 20px;
+    opacity: 1;
+    
+}
+
+
+.program-item h3{
+    
+    margin-top: 35px;
+    font-size: 25px;
+    color: red;
+    
+}
+
+
+.program-item p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.two h3{
+    margin-top: 15px;
+}
+
+.five h3{
+    margin-right: 26px;
+}
+
+
+.one h3{
+    margin-right: 30px;
+}
+
+
+.three h3{
+    margin-right: 41px;
+}
+
+
+.main-program h2{
+    margin-top: 30px;
+    color: white;
+}
+
+#btn1{
+    background-color: rgb(252, 53, 53);
+    margin: 50px;
+    height: 100px;
+    width: 450px;
+    margin-left: 80px;
+    font-size: 25px;
+    color: white;
+}
+
+.line {
+    width: 50px;          
+    height: 2px;          
+    background-color: rgb(253, 48, 48); 
+    margin-top: -20px;   
+    margin-bottom: 50px;
+    margin-left: 270px;
+        
+}
+
+
+#speakers h2{
+    margin-top: 25px;
+    margin-left: 198px;
+    margin-bottom: 25px;
+    color: black;
+}
+
+.l2{
+    
+    height: 3px;
+}
+
+.speaker{
+    display: flex;
+    flex-direction: row;
+    height: 130px;
+    width: 550px;
+    background-color: white;
+}
+
+.hi{
+    width: 1000px;
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.items p{
+    margin-top: 0px;
+    font-size: 13px;
+}
+
+.red{
+    color: rgb(243, 44, 44);
+}
+
+
+.program-item img{
+    opacity: 0.5;
+}
+
+#more{
+    
+    width: 600px;
+    background-color: #fff;
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+
+#overlaymenu{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent background */
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+    z-index: 1000;
+}
+
+#moresp{
+    display: none;
+}
+
+.speak{
+    
+}
+
+
+
+
