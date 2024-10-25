@@ -1,0 +1,211 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    
+
+h1, h2 {
+    color: #ff4500; 
+    margin-top: -20px;
+    background-image: url('font.jpg');
+         background-size: cover; 
+        background-position: center;
+        color: transparent; 
+        -webkit-background-clip: text; 
+         background-clip: text; 
+}
+
+h3{
+    color: #ff4500;
+}
+
+p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#main{
+    max-width: 650px;
+    margin: auto;
+}
+.header {
+    
+    
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+}
+
+
+.firstpage{
+    
+}
+
+.firstpage h1 {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.firstpage h2 {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+
+
+.firstpage p {
+    font-size: 18px;
+}
+
+
+.main-program {
+    
+    padding: 20px;
+    
+    margin: auto;
+    background-image: url('pg2\ \(1\).png');
+
+}
+
+.main-program h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-left: 5px solid #ff4500;
+}
+
+.program-item h3 {
+    margin-top: 0;
+}
+
+/* Speakers Section */
+.speakers {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.speakers h2 {
+    margin-bottom: 20px;
+}
+
+.speaker {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2.5%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.speaker img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.speaker h3 {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        width: 100%;
+    }
+}
+
+
+.header img{
+    height: 50px;
+    margin-right: 1000px;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    line-height: 2;
+    letter-spacing: 1px;
+    width: 550px;
+}
+
+
+.pg1{
+    background-image: url('pg2\ \(2\).png');
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+
+
+
+.ps{
+    margin-left: 30px;
+    
+}
+
+#p1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+#p2{
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+
+.program-item{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    height: 80px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    margin-bottom: 20px;
+    opacity: 1;
+    
+}
+
+
+.program-item h3{
+    margin-left: 120px;
+    margin-top: 40px;
+    font-size: 25px;
+    color: red;
+    
+}
+
+
+.program-item p{
+    color: white;
+    font-size: 20px;
+    
+}
+
+.program-item:nth-of-type(2) h3 {
+    margin-top: 15px;
+}
+
+.main-program h2{
+    margin-top: 30px;
+    color: white;
+}
