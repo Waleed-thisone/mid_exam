@@ -1,0 +1,164 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+    
+
+h1, h2, h3 {
+    color: #ff4500; 
+    margin-top: -20px;
+    background-image: url('font.jpg');
+         background-size: cover; 
+        background-position: center;
+        color: transparent; 
+        -webkit-background-clip: text; 
+         background-clip: text; 
+}
+
+p {
+    margin: 10px 0;
+    font-size: 25px;
+}
+
+#main{
+    max-width: 650px;
+    margin: auto;
+}
+.header {
+    
+    
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin: auto;
+}
+
+
+.firstpage{
+    
+}
+
+.firstpage h1 {
+    font-size: 26px;
+    margin-left: 30px;
+}
+
+.firstpage h2 {
+    margin-left: 30px;
+    margin-right: 20px;
+    font-size: 55px;
+    font-weight: bold;
+    
+}
+
+
+.firstpage p {
+    font-size: 18px;
+}
+
+
+.main-program {
+    
+    padding: 20px;
+    
+    margin: auto;
+    background-color: #333;
+}
+
+.main-program h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.program-item {
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 10px 0;
+    border-left: 5px solid #ff4500;
+}
+
+.program-item h3 {
+    margin-top: 0;
+}
+
+/* Speakers Section */
+.speakers {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.speakers h2 {
+    margin-bottom: 20px;
+}
+
+.speaker {
+    display: inline-block;
+    width: 45%;
+    margin: 20px 2.5%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.speaker img {
+    max-width: 100%;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.speaker h3 {
+    margin-top: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    .speaker {
+        width: 100%;
+    }
+}
+
+
+.header img{
+    height: 50px;
+    margin-right: 1000px;
+}
+
+.box{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    background-color: whitesmoke;
+    line-height: 2;
+    letter-spacing: 1px;
+    width: 550px;
+}
+
+
+.pg1{
+    background-image: url('pg2\ \(2\).png');
+    background-repeat: no-repeat;
+    height: 1200px;
+}
+
+
+
+
+.ps{
+    margin-left: 30px;
+    font-size: 50px;
+}
+
+#p1{
+    font-weight: 500;
+}
+
+
+
+
